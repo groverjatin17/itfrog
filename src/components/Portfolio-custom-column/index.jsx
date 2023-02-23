@@ -30,7 +30,7 @@ const PortfolioCustomColumn = ({
             </h6>
             <Split>
               <h3 className="wow words chars splitting" data-splitting>
-                Our Works.
+                Our Services.
               </h3>
             </Split>
             <span className="tbg text-right">Portfolio</span>

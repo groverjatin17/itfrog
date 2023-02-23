@@ -10,10 +10,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Avo</title>
+        <title>IT Frog</title>
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
-      <Cursor />
       <LoadingScreen />
       <ScrollToTop />
       <Component {...pageProps} />

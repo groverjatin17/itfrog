@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from "react";
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
 
@@ -18,7 +18,14 @@ const Services5 = () => {
             <div className="img">
               <img src="/img/intro/planning.png" alt="" />
               <div className="vid-icon">
-                <a className="vid" href="https://vimeo.com/127203262" onClick={(e) => {e.preventDefault(); setOpen(true);}}>
+                <a
+                  className="vid"
+                  href="https://vimeo.com/127203262"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setOpen(true);
+                  }}
+                >
                   <div className="vid-butn">
                     <span className="icon">
                       <i className="fas fa-play"></i>
@@ -36,26 +43,34 @@ const Services5 = () => {
                 <span></span>
                 <span></span>
               </div>
-              <h3 className="mb-30 fw-700">Investing in <br /> the digital future.</h3>
-              <p>Since its establishment in 2000, Avo Creative has been focusing on project management & implementation through cooperation.</p>
-              <p>In total, Brook Creative has created more than 2000 projects related to constructional designing and landscaping worldwide.</p>
+              <h3 className="mb-30 fw-700">
+                Investing in <br /> the digital future.
+              </h3>
+              <p>
+                Since its establishment, IT Frog has been focusing on
+                digitization & implementation through cooperation.
+              </p>
+              <p>
+                In total, we have served more than 50+ high scale projects
+                related to Web and App Development. We continue to put constant
+                efforts in order to make a positive change and digitize small to
+                medium scale businesses.
+              </p>
             </div>
           </div>
         </div>
       </div>
-      {
-        typeof window !== "undefined" && (
-          <ModalVideo
-            channel="vimeo"
-            autoplay
-            isOpen={isOpen}
-            videoId="127203262"
-            onClose={() => setOpen(false)}
-          />
-        )
-      }
+      {typeof window !== "undefined" && (
+        <ModalVideo
+          channel="vimeo"
+          autoplay
+          isOpen={isOpen}
+          videoId="127203262"
+          onClose={() => setOpen(false)}
+        />
+      )}
     </section>
-  )
-}
+  );
+};
 
-export default Services5
+export default Services5;

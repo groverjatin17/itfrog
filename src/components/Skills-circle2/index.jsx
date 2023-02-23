@@ -1,8 +1,8 @@
-import { useEffect } from 'react';
-import Link from 'next/link';
+import { useEffect } from "react";
+import Link from "next/link";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import skills from '../../data/sections/skills-circle.json';
+import skills from "../../data/sections/skills-circle.json";
 
 const SkillsCircle2 = ({ theme }) => {
   const cpStyle = {
@@ -19,7 +19,9 @@ const SkillsCircle2 = ({ theme }) => {
   };
 
   useEffect(() => {
-    document.querySelectorAll('.CircularProgressbar-text').forEach(el => el.classList.add('custom-font'));
+    document
+      .querySelectorAll(".CircularProgressbar-text")
+      .forEach((el) => el.classList.add("custom-font"));
   }, []);
 
   return (
@@ -34,10 +36,20 @@ const SkillsCircle2 = ({ theme }) => {
                 <span></span>
                 <span></span>
               </div>
-              <h3 className="mb-15 fw-700">Highly expertise with amazing design services.</h3>
-              <p>We design brand, digital experience that engage the right customers.</p>
+              <h3 className="mb-15 fw-700">
+                Highly expertise with amazing design services.
+              </h3>
+              <p>
+                We design your product from scratch, and make sure your brand
+                engages the right customer
+              </p>
               <Link href={`/contact/contact-${theme}`}>
-                <a className={`btn-curve ${theme === 'dark' ? 'btn-lit':''} mt-30 wow fadeInUp`} data-wow-delay=".5s">
+                <a
+                  className={`btn-curve ${
+                    theme === "dark" ? "btn-lit" : ""
+                  } mt-30 wow fadeInUp`}
+                  data-wow-delay=".5s"
+                >
                   <span>Discover Us</span>
                 </a>
               </Link>
@@ -46,33 +58,34 @@ const SkillsCircle2 = ({ theme }) => {
           <div className="col-lg-6 offset-lg-1 valign">
             <div className="">
               <div className="row">
-                {
-                  skills.map((skill, index) => (
-                    <div className="col-md-6" key={index}>
-                      <div className="item simpl wow fadeInLeft sm-mb50" data-wow-delay=".6">
-                        <div className="skill" data-value={skill.value / 100 }>
-                          <CircularProgressbar
-                            value={skill.value}
-                            strokeWidth={2}
-                            text={`${skill.value}%`}
-                            styles={cpStyle}
-                          />
-                        </div>
-                        <div className="cont">
-                          <h6>{ skill.title }</h6>
-                          <p>{ skill.details }</p>
-                        </div>
+                {skills.map((skill, index) => (
+                  <div className="col-md-6" key={index}>
+                    <div
+                      className="item simpl wow fadeInLeft sm-mb50"
+                      data-wow-delay=".6"
+                    >
+                      <div className="skill" data-value={skill.value / 100}>
+                        <CircularProgressbar
+                          value={skill.value}
+                          strokeWidth={2}
+                          text={`${skill.value}%`}
+                          styles={cpStyle}
+                        />
+                      </div>
+                      <div className="cont">
+                        <h6>{skill.title}</h6>
+                        <p>{skill.details}</p>
                       </div>
                     </div>
-                  ))
-                }
+                  </div>
+                ))}
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default SkillsCircle2
+export default SkillsCircle2;

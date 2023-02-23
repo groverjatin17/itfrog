@@ -23,10 +23,10 @@ const BlogsThreeColumn1 = ({ subBG, newHome }) => {
           <div className="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
             <div
               className={`item bg-img ${newHome ? 'active' : ''}`}
-              style={{ backgroundImage: "url(/img/blog/1.jpg)" }}
+              style={{ backgroundImage: "url(/img/blog/blog1.png)" }}
             >
               <div className="cont">
-                <Link href="/blog/blog-dark">
+                <Link href="/blog/blog-light">
                   <a className="date custom-font">
                     <span>
                       <i>06</i> Aug 2022
@@ -37,15 +37,15 @@ const BlogsThreeColumn1 = ({ subBG, newHome }) => {
                   <a href="#0" className="author">
                     <span>by / Admin</span>
                   </a>
-                  <Link href="/blog/blog-dark">
+                  <Link href="/blog/blog-light">
                     <a className="tag">
                       <span>WordPress</span>
                     </a>
                   </Link>
                 </div>
                 <h6>
-                  <Link href="/blog-details/blog-details-dark">
-                    The Start-Up Ultimate Guide to Make Your WordPress Journal.
+                  <Link href="/blog-details/blog-details-light">
+                    Why Digitization is crucial for business in 2023.
                   </Link>
                 </h6>
                 <div className="btn-more custom-font">
@@ -59,7 +59,7 @@ const BlogsThreeColumn1 = ({ subBG, newHome }) => {
           <div className="col-lg-4 wow fadeInUp" data-wow-delay=".6s">
             <div
               className="item active bg-img"
-              style={{ backgroundImage: "url(/img/blog/2.jpg)" }}
+              style={{ backgroundImage: "url(/img/blog/blog2.png)" }}
             >
               <div className="cont">
                 <Link href="/blog/blog-dark">
@@ -95,7 +95,7 @@ const BlogsThreeColumn1 = ({ subBG, newHome }) => {
           <div className="col-lg-4 wow fadeInUp" data-wow-delay=".9s">
             <div
               className={`item bg-img ${newHome ? 'active' : ''}`}
-              style={{ backgroundImage: "url(/img/blog/3.jpg)" }}
+              style={{ backgroundImage: "url(/img/blog/blog3.png)" }}
             >
               <div className="cont">
                 <Link href="/blog/blog-dark">

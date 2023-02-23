@@ -4,7 +4,6 @@
     Theme URI: http://
     Description: Creative Agency & Portfolio
     Author: ThemesCamp
-    Author URI: http://themeforest.net/user/ThemesCamp
     Version: 1.0
 
 -----------------------------------------------------------------------------------*/
@@ -1109,9 +1108,6 @@ span:hover {
 
 /* ====================== [ End Text Animation & Images ] ====================== */
 /* ====================== [ Start Cursor Style ] ====================== */
-body {
-  cursor: none;
-}
 
 .mouse-cursor {
   position: fixed;
@@ -1722,7 +1718,7 @@ body {
   cursor: pointer;
 }
 .navbar .logo {
-  width: 50px;
+  width: 60px;
 }
 .navbar.light .navbar-nav .nav-link {
   color: #0c0f16;

@@ -80,7 +80,7 @@ class Testimonials1 extends React.Component {
               >
                 <div className="item">
                   <p>
-                    Working with Avo digital agency to support our organic and
+                    Working with IT Frog digital agency to support our organic and
                     paid social media activity has extended the marketing
                     activities we are able to achieve platform has made
                     collaboration easy.
@@ -97,10 +97,10 @@ class Testimonials1 extends React.Component {
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
-                                Alex Regelman
+                                Ashish Kumar
                               </h6>
                               <span className="author-details">
-                                Co-founder, Colabrio
+                                Founder/CEO, Toronto
                               </span>
                             </div>
                           </>
@@ -110,10 +110,10 @@ class Testimonials1 extends React.Component {
                               <img src="/img/clients/1.jpg" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
-                              Alex Regelman
+                            Ashish Kumar
                             </h6>
                             <span className="author-details">
-                              Co-founder, Colabrio
+                            Founder/CEO, Toronto
                             </span>
                           </>
                         )}
@@ -123,7 +123,7 @@ class Testimonials1 extends React.Component {
                 </div>
                 <div className="item">
                   <p>
-                    Avo started out managing our SEO efforts, but their
+                    ITFrog started out managing our SEO efforts, but their
                     scientific approach to digital marketing and the results
                     they have achieved made it an easy decision for us to
                     handover the management.
@@ -140,10 +140,10 @@ class Testimonials1 extends React.Component {
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
-                                Alex Regelman
+                                Harry Potter
                               </h6>
                               <span className="author-details">
-                                Co-founder, Colabrio
+                                CTO, Toronto
                               </span>
                             </div>
                           </>
@@ -153,10 +153,10 @@ class Testimonials1 extends React.Component {
                               <img src="/img/clients/1.jpg" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
-                              Alex Regelman
+                            Harry Potter
                             </h6>
                             <span className="author-details">
-                              Co-founder, Colabrio
+                            CTO, Toronto
                             </span>
                           </>
                         )}
@@ -166,7 +166,7 @@ class Testimonials1 extends React.Component {
                 </div>
                 <div className="item">
                   <p>
-                    I would highly recommend Avo Digital. I worked with the team
+                    I would highly recommend ITFrog Digital. I worked with the team
                     on an animation for our U+2018 Click &amp; Collect U+2019
                     service. This team is different from any other agency I have
                     worked with in the past.

@@ -21,7 +21,7 @@ const BlogDetails = () => {
           <div className="col-lg-11">
             <div className="post">
               <div className="img">
-                <img src="/img/blog/single.jpg" alt="" />
+                <img src="/img/blog/blog2.png" alt="" />
               </div>
               <div className="content pt-20">
                 <div className="row justify-content-center">
@@ -29,66 +29,75 @@ const BlogDetails = () => {
                     <div className="cont">
                       <div className="spacial">
                         <p>
-                          Never ever think of giving up. Winners never quit and
-                          quitters never win. Take all negative words out of
-                          your mental dictionary and focus on the solutions with
-                          utmost conviction and patience. The battle is never
-                          lost until you’ve abandon your vision.
+                          In today's digital age, the use of technology and
+                          digitization is rapidly increasing, and businesses can
+                          benefit greatly from this trend. Digitization refers
+                          to the process of converting information into a
+                          digital format, making it easier to access, store, and
+                          share. Here are some ways that digitization can help
+                          your business grow:
                         </p>
                       </div>
-                      <p>
-                        the main component of a healthy environment for self
-                        esteem is that it needs be nurturing. The main compont
-                        of a healthy environment for self esteem is that it
-                        needs be nurturing. The main component of a healthy env
-                        for self esteem The main compont be nurturing It should
-                        provide unconditional warmth. The main component of a
-                        healthy env for self esteem The main compont be
-                        nurturing It should provide unconditional
-                      </p>
 
-                      <h6>- We all intend to plan ahead.</h6>
+                      {/* <h6>- We all intend to plan ahead.</h6> */}
 
                       <p>
-                        We all intend to plan ahead, but too often let the
-                        day-to-day minutia get in the way of making a calendar
-                        for the year. Sure, you can’t know every detail to
-                        anticipate. Heck, you can’t know half the priorities
-                        that will pop up in any particular month. But you can
-                        plan for big picture seasonality, busy-times, and
-                        events.
+                        Here are few parameters below that can significantly
+                        impact your business.
                       </p>
 
                       <ul>
                         <li>
-                          <span>01</span> Integer in volutpat libero.
+                          01. Improved efficiency: Digitizing your business
+                          processes can help you streamline your operations and
+                          increase efficiency. By automating tasks, you can
+                          reduce the time and effort required to complete them,
+                          freeing up resources to focus on other areas of the
+                          business.
                         </li>
                         <li>
-                          <span>02</span> Vivamus maximus ultricies pulvinar.
+                          02. Increased productivity: Digitization can also
+                          improve productivity by enabling your employees to
+                          work more effectively. Digital tools and systems can
+                          help them to collaborate more easily, communicate more
+                          effectively, and access information more quickly.
                         </li>
                         <li>
-                          <span>03</span> priorities that will pop up in any
-                          particular month.
+                          03. Enhanced customer experience: Digital technologies
+                          can help you provide a better customer experience by
+                          making it easier to interact with your business. For
+                          example, you can use social media and other digital
+                          channels to engage with customers, offer personalized
+                          recommendations, and provide quick and efficient
+                          service.
                         </li>
                         <li>
-                          <span>04</span> We all intend to plan ahead.
+                          04. Data-driven decision making: Digitization can help
+                          you collect and analyze data more easily, providing
+                          valuable insights into your business. This can help
+                          you make more informed decisions, identify
+                          opportunities for growth, and optimize your
+                          operations.
                         </li>
                         <li>
-                          <span>05</span> The main component of a healthy env
-                          for self esteem.
+                          05. Increased competitiveness: In today's digital
+                          marketplace, businesses that embrace technology and
+                          digitization are better positioned to compete. By
+                          leveraging digital tools and systems, you can
+                          differentiate your business and offer new products and
+                          services that meet evolving customer needs.
                         </li>
                       </ul>
 
                       <div className="quotes text-center">
                         <p>
-                          Never ever think of giving up. Winners never quit and
-                          quitters never win. Take all negative words out of
-                          your mental dictionary and focus on the solutions with
-                          utmost conviction and patience. The battle is never
-                          lost until you’ve abandon your vision.
+                          There is no alternative to digital transformation.
+                          Visionary companies will carve out new strategic
+                          options for themselves – those that don’t adapt will
+                          fail.
                         </p>
                       </div>
-                      <div className="row">
+`                      {/* <div className="row">
                         <div className="col-md-6">
                           <div className="mb-10">
                             <img src="/img/blog/single.jpg" alt="" />
@@ -99,16 +108,12 @@ const BlogDetails = () => {
                             <img src="/img/blog/single.jpg" alt="" />
                           </div>
                         </div>
-                      </div>
-                      <p>
-                        We all intend to plan ahead, but too often let the
-                        day-to-day minutia get in the way of making a calendar
-                        for the year. Sure, you can’t know every detail to
-                        anticipate. Heck, you can’t know half the priorities
-                        that will pop up in any particular month. But you can
-                        plan for big picture seasonality, busy-times, and
-                        events.
-                      </p>
+                      </div>` */}
+                      {/* <p>
+                        There is no alternative to digital transformation.
+                        Visionary companies will carve out new strategic options
+                        for themselves – those that don’t adapt will fail.
+                      </p> */}
                       <div className="share-info">
                         <div className="social">
                           <a href="#0">

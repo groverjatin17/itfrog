@@ -3,18 +3,18 @@
     "id": 1,
     "title": "Digital Marketing",
     "icon": "pe-7s-gleam",
-    "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+    "content": "Reach your consumer faster and with a simple click."
   },
   {
     "id": 2,
     "title": "Web & App Development",
     "icon": "pe-7s-phone",
-    "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+    "content": "Reach wider audience and compete in international market."
   },
   {
     "id": 3,
-    "title": "Graphic Design",
+    "title": "Corporate Training",
     "icon": "pe-7s-magic-wand",
-    "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+    "content": "Unlocking the full potential of your workforce with training."
   }
 ]

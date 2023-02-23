@@ -39,7 +39,7 @@ const Works2Slider = ({ subBG }) => {
             </h6>
             <Split>
               <h3 className="wow words chars splitting" data-splitting>
-                Our Works.
+                Our Services.
               </h3>
             </Split>
             <span className="tbg">Portfolio</span>
@@ -110,12 +110,12 @@ const Works2Slider = ({ subBG }) => {
                           <div className="cont bgbox">
                             <h6>
                               <Link href="/works2/works2-dark">
-                                art &amp; illustration
+                                technology
                               </Link>
                             </h6>
                             <h4>
                               <Link href="/project-details/project-details-dark">
-                                <a>Innovation and Crafts.</a>
+                                <a>Digital Transformation.</a>
                               </Link>
                             </h4>
                             <Link href="/project-details2/project-details2-dark">
@@ -142,12 +142,12 @@ const Works2Slider = ({ subBG }) => {
                           <div className="cont bgbox">
                             <h6>
                               <Link href="/works2/works2-dark">
-                                art &amp; illustration
+                                technology
                               </Link>
                             </h6>
                             <h4>
                               <Link href="/project-details/project-details-dark">
-                                <a>Inspiring new space.</a>
+                                <a>Digital Transformation.</a>
                               </Link>
                             </h4>
                             <Link href="/project-details2/project-details2-dark">
@@ -174,7 +174,7 @@ const Works2Slider = ({ subBG }) => {
                           <div className="cont bgbox">
                             <h6>
                               <Link href="/works2/works2-dark">
-                                art &amp; illustration
+                                technology
                               </Link>
                             </h6>
                             <h4>
@@ -206,12 +206,12 @@ const Works2Slider = ({ subBG }) => {
                           <div className="cont bgbox">
                             <h6>
                               <Link href="/works2/works2-dark">
-                                art &amp; illustration
+                                technology
                               </Link>
                             </h6>
                             <h4>
                               <Link href="/project-details/project-details-dark">
-                                <a>Innovation and Crafts.</a>
+                                <a>Digital Transformation.</a>
                               </Link>
                             </h4>
                             <Link href="/project-details2/project-details2-dark">
@@ -238,12 +238,12 @@ const Works2Slider = ({ subBG }) => {
                           <div className="cont bgbox">
                             <h6>
                               <Link href="/works2/works2-dark">
-                                art &amp; illustration
+                                technology
                               </Link>
                             </h6>
                             <h4>
                               <Link href="/project-details/project-details-dark">
-                                <a>Inspiring new space.</a>
+                                <a>Digital Transformation.</a>
                               </Link>
                             </h4>
                             <Link href="/project-details2/project-details2-dark">

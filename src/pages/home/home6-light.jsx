@@ -24,6 +24,7 @@ const Homepage6 = () => {
   useEffect(() => {
     var navbar = navbarRef.current,
       logo = logoRef.current;
+    console.log("window.pageYOffset", window.pageYOffset);
     if (window.pageYOffset > 300) {
       navbar.classList.add("nav-scroll");
     } else {
@@ -39,12 +40,39 @@ const Homepage6 = () => {
       }
     });
 
-    window.addEventListener("load", () => {
-      document.body.classList.add('dark2');
-      var slidHeight = document.querySelector('.fixed-slider').getBoundingClientRect().height;
-      document.querySelector('.main-content').style.setProperty('margin-top', slidHeight + 'px');
-    })
+    // window.addEventListener("load", () => {
+    //   // document.body.classList.add('dark2');
+    //   if (document.querySelector(".fixed-slider")) {
+    //     var slidHeight = document
+    //       .querySelector(".fixed-slider")
+    //       .getBoundingClientRect().height;
+    //     console.log("slidHeight", slidHeight);
+    //   }
+
+    //   document
+    //     .querySelector(".main-content")
+    //     .style.setProperty("margin-top", slidHeight + "px");
+    // });
   }, [navbarRef]);
+
+  useEffect(() => {
+    // window.addEventListener("load", () => {
+    // document.body.classList.add('dark2');
+    if (document.querySelector(".fixed-slider")) {
+      var slidHeight = document
+        .querySelector(".fixed-slider")
+        .getBoundingClientRect().height;
+      console.log("slidHeight", slidHeight);
+
+      document
+        .querySelector(".main-content")
+        .style.setProperty("margin-top", slidHeight + "px");
+    } else {
+      console.log("slidHeight not found");
+    }
+
+    // });
+  });
 
   return (
     <LightTheme>

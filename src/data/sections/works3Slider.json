@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "title": "art & illustration",
-    "secTex": "Innovation and Crafts",
-    "image": "/img/portfolio/curs/1.jpg",
+    "title": "technology",
+    "secTex": "Digital Transformation",
+    "image": "/img/portfolio/curs/01.png",
     "slug": "/project-details/project-details-dark"
   },
   {
     "id": 2,
-    "title": "art & illustration",
-    "secTex": "Inspiring new space",
-    "image": "/img/portfolio/curs/2.jpg",
+    "title": "cloud",
+    "secTex": "Cloud Services",
+    "image": "/img/portfolio/curs/02.png",
     "slug": "/project-details/project-details-dark"
   },
   {
     "id": 3,
-    "title": "art & illustration",
-    "secTex": "Natural plus modern",
-    "image": "/img/portfolio/curs/3.jpg",
+    "title": "technology",
+    "secTex": "Corporate Training",
+    "image": "/img/portfolio/curs/03.png",
     "slug": "/project-details/project-details-dark"
   },
   {
     "id": 4,
-    "title": "art & illustration",
-    "secTex": "Innovation and Crafts",
-    "image": "/img/portfolio/curs/4.jpg",
+    "title": "innovation",
+    "secTex": "Accelerated Innovation",
+    "image": "/img/portfolio/curs/04.png",
     "slug": "/project-details/project-details-dark"
   },
   {
     "id": 5,
-    "title": "art & illustration",
-    "secTex": "Inspiring new space",
-    "image": "/img/portfolio/curs/5.jpg",
+    "title": "technology",
+    "secTex": "Web Development",
+    "image": "/img/portfolio/curs/05.png",
     "slug": "/project-details/project-details-dark"
   }
 ]

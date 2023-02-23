@@ -41,7 +41,7 @@ const ProjectDetailsDark = () => {
       />
       <NextProject
         projectImage="/img/portfolio/project2/bg.jpg"
-        projectTitle="Inspiring new space."
+        projectTitle="Digital Transformation."
       />
       <SmallFooter />
     </DarkTheme>

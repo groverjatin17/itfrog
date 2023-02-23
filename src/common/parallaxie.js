@@ -11,8 +11,11 @@ export default function parallaxie(selector) {
     window.addEventListener('scroll', () => {
       let element = document.querySelector(selector);
 
-      position = element.getBoundingClientRect().top * 0.75;
-      element.style.backgroundPosition = `center ${position}px`;
+      if(element){
+        position = element.getBoundingClientRect().top * 0.75;
+        element.style.backgroundPosition = `center ${position}px`;
+      }
+
     });
   }
 }

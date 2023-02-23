@@ -12,8 +12,8 @@ const ProjectDetails2Header = () => {
         <div className="row">
           <div className="col-lg-7 col-md-9">
             <div className="cont">
-              <h6>art &amp; illustration</h6>
-              <h2>Inspiring new space.</h2>
+              <h6>technology</h6>
+              <h2>Digital Transformation.</h2>
             </div>
           </div>
         </div>

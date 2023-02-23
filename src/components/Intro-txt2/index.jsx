@@ -1,20 +1,28 @@
-import { useEffect } from 'react';
-import addParlx from '../../common/addParlx';
+import { useEffect } from "react";
+import addParlx from "../../common/addParlx";
 
 const IntroTxt2 = () => {
   useEffect(() => {
     setTimeout(() => addParlx());
   }, []);
 
+  console.log("rendering intro text 2");
   return (
-    <header className="slider simpl fixed-slider bg-img valign" style={{ backgroundImage: "url(/img/slid/dev-hero.jpg)" }} data-overlay-dark="6">
+    <header
+      className="slider simpl fixed-slider bg-img valign"
+      style={{ backgroundImage: "url(/img/slid/dev-hero.jpg)" }}
+      data-overlay-dark="6"
+    >
       <div className="container">
         <div className="row">
           <div className="col-lg-9">
             <div className="caption center mt-50">
-              <h6>Unique Business.</h6>
-              <h1>Creative Digital Agency</h1>
-              <p>If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.</p>
+              <h6>Digital Transformation.</h6>
+              <h1>IT FROG</h1>
+              <p>
+                Empowering businesses to digitize and thrive in the digital age
+                with innovative solutions and support.
+              </p>
               <a href="#0" className="btn-curve btn-lit mt-40">
                 <span>Get Started Now</span>
               </a>
@@ -23,7 +31,7 @@ const IntroTxt2 = () => {
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default IntroTxt2
+export default IntroTxt2;

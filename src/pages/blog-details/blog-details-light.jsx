@@ -32,7 +32,7 @@ const BlogDetailsLight = () => {
           <div className="row justify-content-center">
             <div className="col-lg-7 col-md-9">
               <div className="cont text-center">
-                <h2>Build a Beautiful Blog With Ease</h2>
+                <h2>Why digitization is crucial for business in 2023.</h2>
               </div>
             </div>
           </div>
